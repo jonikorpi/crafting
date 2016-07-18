@@ -1,0 +1,35 @@
+{
+  "name": "valojuova",
+  "version": "0.0.1",
+  "description": "TBA",
+  "main": "index.js",
+  "dependencies": {
+    "aframe": "^0.2.0",
+    "aframe-extras": "^1.14.1",
+    "aframe-react": "^1.2.0",
+    "aframe-text-component": "^0.3.0",
+    "classnames": "^2.2.5",
+    "combokeys": "^2.4.6",
+    "react": "^15.0.1",
+    "react-addons-pure-render-mixin": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-localstorage": "^0.2.9",
+    "react-mixin": "^2.0.2",
+    "react-motion": "^0.4.2",
+    "react-router": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonikorpi/valojuova.git"
+  },
+  "author": "Joni Korpi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonikorpi/valojuova/issues"
+  },
+  "homepage": "https://github.com/jonikorpi/valojuova#readme"
+}
