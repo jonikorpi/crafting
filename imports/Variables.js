@@ -71,6 +71,41 @@ Variables.longTime = function(exponent) {
 //
 // Functions
 
+Variables.distanceBetween(a, b) {
+  let x = b[0] - a[0];
+  let y = b[1] - a[1];
+  let z = 0;
+
+  if (a[2] && b[2]) {
+    z = b[2] - a[2];
+  }
+
+  return Math.sqrt(x*x + y*y + z*z);
+}
+
+// http://www.somethinghitme.com/2013/11/13/snippets-i-always-forget-movement/
+
+// LERP
+// x += (targetX-x)/speed;
+// y += (targetY-y)/speed;
+
+// Constant speed
+// var tx = targetX - x,
+//     ty = targetY - y,
+//     dist = Math.sqrt(tx*tx+ty*ty);
+//
+// velX = (tx/dist)*thrust;
+// velY = (ty/dist)*thrust;
+
+// Angle between objects
+// var x = this.x - this.targetX,
+//     y = this.y - this.targetY,
+//     radians = Math.atan2(y,x);
+// … and project a point in front of object
+// pointx = x + pointLength * Math.cos(radians);
+// pointy = y + pointLength * Math.sin(radians);
+
+
 Variables.sinToDegrees = function(sin) {
   return Math.asin(sin) * 180 / Math.PI;
 };
