@@ -71,7 +71,7 @@ Variables.longTime = function(exponent) {
 //
 // Functions
 
-Variables.distanceBetween(a, b) {
+Variables.distanceBetween = function(a, b) {
   let x = b[0] - a[0];
   let y = b[1] - a[1];
   let z = 0;
