@@ -16,7 +16,7 @@
     "react-localstorage": "^0.2.9",
     "react-mixin": "^2.0.2",
     "react-motion": "^0.4.2",
-    "react-router": "^2.4.0"
+    "react-router": "^2.6.0"
   },
   "devDependencies": {},
   "scripts": {
