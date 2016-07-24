@@ -1,4 +1,5 @@
 export const PartTypes = [
+
   {
     type: 0,
     name: "Steel Beam",
@@ -23,6 +24,7 @@ export const PartTypes = [
     ],
     effects: [],
   },
+
   {
     type: 1,
     name: "Steel Pillar",
@@ -40,4 +42,5 @@ export const PartTypes = [
     ],
     effects: [],
   },
+
 ];
